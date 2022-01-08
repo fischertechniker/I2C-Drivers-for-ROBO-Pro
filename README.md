@@ -17,7 +17,7 @@ Den Nunchuk gibt es sogar mit einer kabellosen IR-Verbindung; damit kann der Nun
 er zudem deutlich günstiger als ein Breadboard mit einem vergleichbaren Bewegungssensor.
 
 <ul>
-<li>ROBO Pro-Treiber Nunchuk (TX/TXT): Accelerometer-Nunchuk v2.1.zip
+  <li>ROBO Pro-Treiber Nunchuk (TX/TXT): Accelerometer-Nunchuk v2.1.rpp
 </ul>
 
 <h2>Farbsensoren</h2>
@@ -30,8 +30,8 @@ die den Anschluss an einen I²C-Bus sehr erleichtern. Eine ausführliche Beschre
 [5], die Datenblätter unter [6, 7].
 
 <ul>
-<li>ROBO Pro-Treiber TCS34725 (TX/TXT): Color-TCS34725 v1.2.zip
-<li>ROBO Pro-Treiber ISL29125 (TXT): Color-ISL29125 v1.1.zip
+  <li>ROBO Pro-Treiber TCS34725 (TX/TXT): Color-TCS34725 v1.3.rpp
+  <li>ROBO Pro-Treiber ISL29125 (TXT): Color-ISL29125 v1.1.rpp
 </ul>
 
 <h2>Kompass-Sensoren</h2>
@@ -44,10 +44,10 @@ Spannungswandler auch am TXT nutzen. Eine ausführliche Beschreibung findet sich
 Sensorbaustein LSM9DS0 von ST Microelectronics verwendet) kann mit 3,6-5V betrieben werden; dasselbe gilt für den jüngsten, den CMPS14 (der den Bosch-Sensor BMO080 verwendet).
 
 <ul>
-<li>ROBO Pro-Treiber HMC6351 (TX): Compass-HMC6352 v1.2.zip
-<li>ROBO Pro-Treiber CMPS10 (TX): Compass-CMPS10 v1.3.zip
-<li>ROBO Pro-Treiber CMPS11 (TX/TXT): Compass-CMPS11 v1.0.zip
-<li>ROBO Pro-Treiber CMPS14 (TX/TXT): Compass-CMPS14 v1.0.zip
+  <li>ROBO Pro-Treiber HMC6351 (TX): Compass-HMC6352 v1.2.rpp
+  <li>ROBO Pro-Treiber CMPS10 (TX): Compass-CMPS10 v1.3.rpp
+  <li>ROBO Pro-Treiber CMPS11 (TX/TXT): Compass-CMPS11 v1.1.rpp
+  <li>ROBO Pro-Treiber CMPS14 (TX/TXT): Compass-CMPS14 v1.0.rpp
 </ul>
 
 <h2>Real-Time Clock</h2>
@@ -61,8 +61,8 @@ Eine ausführliche Beschreibung beider Sensoren und Beispielanwendungen findet s
 (Der TXT bietet in ROBO Pro inzwischen einen Zugriff auf seine Echtzeituhr.)
 
 <ul>
-<li>ROBO Pro-Treiber DS1307 (TX): RealTimeClock-DS1307 v1.3.zip
-<li>ROBO Pro-Treiber DS3231 (TX/TXT): RealTimeClock-DS3231 v1.3.zip
+  <li>ROBO Pro-Treiber DS1307 (TX): RealTimeClock-DS1307 v1.3.rpp
+  <li>ROBO Pro-Treiber DS3231 (TX/TXT): RealTimeClock-DS3231 v1.3.rpp
 </ul>
 
 <h2>Temperatur- und Drucksensor</h2>
@@ -78,8 +78,8 @@ der Sensor sowohl am TX als auch am TXT genutzt werden kann (einzige Einschränk
 Fließkommaoperationen, nur im Online-Mode). Details zum Sensor und einer Beschreibung des Treibers finden sich unter [36], das Datenblatt unter [37].
 
 <ul>
-<li>ROBO Pro-Treiber MCP9808 (TX/TXT): Thermometer-MCP9808 v1.2.zip
-<li>ROBO Pro-Treiber BMP280 (TX/TXT): Pressure-BMP280 v1.0.zip
+  <li>ROBO Pro-Treiber MCP9808 (TX/TXT): Thermometer-MCP9808 v1.2.rpp
+  <li>ROBO Pro-Treiber BMP280 (TX/TXT): Pressure-BMP280 v1.1.rpp
 </ul>
 
 <h2>Ultraschall-Sensoren</h2>
@@ -95,8 +95,9 @@ Auch dieser Sensor benötigt eine 5V-Betriebsspannung; er kann direkt an den TX 
 Datenblatt [19].
 
 <ul>
-<li>ROBO Pro-Treiber SRF08 (TX): Ultraschall-SRF08 v1.1.zip
-<li>ROBO Pro-Treiber SRF02 (TX): Ultraschall-SRF02 v2.0.zip
+  <li>ROBO Pro-Treiber SRF08 (TX): Ultraschall-SRF08 v1.1.rpp
+  <li>ROBO Pro-Treiber SRF02 (TX): Ultraschall-SRF02 v2.0.rpp
+    
 </ul>
 
 <h2>IR-Abstandssensoren</h2>
@@ -108,8 +109,8 @@ Die Vishay-Sensoren VCNL4000 und VCNL4010 verfügen außerdem über einen Licht-
 Lichtstrom) in Lux misst (Lumen/m²).
 
 <ul>
-<li>ROBO Pro-Treiber VCNL4000 (TX/TXT):
-<li>ROBO Pro-Treiber VCNL4010 (TX/TXT):
+  <li>ROBO Pro-Treiber VCNL4000 (TX/TXT):
+  <li>ROBO Pro-Treiber VCNL4010 (TX/TXT):
 </ul>
 
 <h2>Multiplexer</h2>
@@ -124,7 +125,7 @@ Level Shifter oder separate Stromversorgung direkt angeschlossen werden. Der Sen
 Datenblatt des Sensors [21].
 
 <ul>
-<li>ROBO Pro-Treiber Multiplexer TCA9548A (TX/TXT): Multiplexer-TCA9548A v1.0.zip
+  <li>ROBO Pro-Treiber Multiplexer TCA9548A (TX/TXT): Multiplexer-TCA9548A v1.0.rpp
 </ul>
 
 <h2>I/O-Expander</h2>
@@ -137,7 +138,7 @@ insgesamt 64 I/O-Ports angesteuert werden. Eine Anwendung für den PCF8574 ist d
 auswertet.
 
 <ul>
-<li>ROBO Pro-Treiber PCF8574 (TX/TXT, inkl. Keypad): IO-Expander PCF8574 v1.1.zip
+  <li>ROBO Pro-Treiber PCF8574 (TX/TXT, inkl. Keypad): IO-Expander PCF8574 v1.1.rpp
 </ul>
 
 <h2>LED-Displays</h2>
@@ -158,10 +159,10 @@ Stromverbrauch (bis 350 mA), beherrscht nur den I²C Standard Mode (100 kHz), ex
 vier verschiedene I²C-Adressen ganz einfach mit einem Jumper auf der Rückseite des Display eingestellt werden. Eine ausführliche Beschreibung findet sich in [26].
 
 <ul>
-<li>ROBO Pro-Treiber S7SD (TX/TXT): LED-S7SD v1.2.zip
-<li>ROBO Pro-Treiber A7SD (TX): LED-A7SD v1.1.zip
-<li>ROBO Pro-Treiber A14SD (TX): LED-A14SD v1.1.zip
-<li>ROBO Pro-Treiber SAA1064 (TX): LED-SAA1064 v2.0.zip
+  <li>ROBO Pro-Treiber S7SD (TX/TXT): LED-S7SD v1.2.rpp
+  <li>ROBO Pro-Treiber A7SD (TX): LED-A7SD v1.1.rpp
+  <li>ROBO Pro-Treiber A14SD (TX): LED-A14SD v1.2.rpp
+  <li>ROBO Pro-Treiber SAA1064 (TX): LED-SAA1064 v2.0.rpp
 </ul>
 
 <h2>LC-Displays</h2>
@@ -177,9 +178,9 @@ Die Helligkeitsregelung erfolgt mechanisch über ein Poti auf der Rückseite, es
 lieferbar. Es verwendet den HD44780 von Hitachi [32], gesteuert über einen PCF8574T von NXP. Eine Beschreibung des Displays findet sich in [28].
 
 <ul>
-<li>ROBO Pro-Treiber LCD05 mit Keypad (TX): LCD-LCD05 v2.4.zip
-<li>ROBO Pro-Treiber LCD05 (TX, inkl. Keypad): Keypad-LCD05 v1.1.zip
-<li>ROBO Pro-Treiber LCD2004 (TX): LCD-LCD2004 v2.0.zip
+  <li>ROBO Pro-Treiber LCD05 mit Keypad (TX): LCD-LCD05 v2.4.rpp
+  <li>ROBO Pro-Treiber LCD05 (TX, inkl. Keypad): Keypad-LCD05 v1.1.rpp
+  <li>ROBO Pro-Treiber LCD2004 (TX): LCD-LCD2004 v2.0.rpp
 </ul>
 
 <h2>LED-Spielereien</h2>
@@ -188,7 +189,7 @@ Neben LED-Displays gibt es auch andere LED-Anzeigen, die via I²C angesteuert we
 gestartet werden können; siehe Datenblatt von ThingM Labs [30]. Sie lässt sich sowohl am TX als auch am TXT betreiben, da die Betriebsspannung Vcc bei 3-5,5V liegen darf.
 
 <ul>
-<li>ROBO Pro-Treiber LED-BlinkM (TX/TXT): LED-BlinkM v1.1.zip
+  <li>ROBO Pro-Treiber LED-BlinkM (TX/TXT): LED-BlinkM v1.2.rpp
 </ul>
 
 <h2>Servo-Driver</h2>
@@ -204,7 +205,7 @@ kann - zu viel für den Vcc-Anschluss am EXT-Stecker. Getestet wurden Board und 
 mit Beispielprogramm (Steuerung eines Servos mit IR-Fernsteuerung und TXT als Empfänger) findet sich in [34].
 
 <ul>
-<li>ROBO Pro-Treiber Servodriver-PCA9685: Servodriver-PCA9685 v1.1.zip
+  <li>ROBO Pro-Treiber Servodriver-PCA9685: Servodriver-PCA9685 v1.1.rpp
 </ul>
 
 <h2>GPS-Sensor</h2>
@@ -215,7 +216,7 @@ zudem über eine sehr schnelle Positionsbestimmung berfügt. Es kann außerdem b
 findet sich in [35].
 
 <ul>
-<li>ROBO Pro-Treiber GPS-GTPA010: GPS-GTPA010 v1.1.zip
+  <li>ROBO Pro-Treiber GPS-GTPA010: GPS-GTPA010 v1.1.rpp
 </ul>
 
 <h2>Gyro- und Beschleunigungssensoren</h2>
@@ -225,7 +226,17 @@ Beschleunigungs- und Kompasssensor umfasst. fischertechnik liefert dazu einen RO
 Bosch-Sensors nutzt. Eine ausführliche Beschreibung des Sensors findet sich in [40, 41].
 
 <ul>
-<li>ROBO Pro-Treiber Kombisensor BMX055: Kombisensor-BMX055 v2.0.zip
+  <li>ROBO Pro-Treiber Kombisensor BMX055: Kombisensor-BMX055 v2.0.rpp
+</ul>
+
+<h2>Kamera</h2>
+
+Der TXT verfügt über eine Kamera und eine Bildverarbeitung in ROBO Pro. Es gibt aber eine Alternative, die auch am TX funktioniert Eine Ausgründung des MIT, Charmed Lab, 
+bietet seit 2014 die Pixy an - eine Kamera, die Bildverarbeitung (wie bspw. Farb- und Objekterkennung) direkt auf dem Chip erledigt und die Analyseergebnisse via I²C (oder SPI)
+überträgt. Dadurch ist die Verarbeitung extrem schnell - und es können sehr viele Objekte (bspw. Bälle) gleichzeitig erkannt werden. Eine ausführliche Beschreibung des Sensors findet sich in [42].
+
+<ul>
+  <li>ROBO Pro-Treiber Pixy: Camera-Pixy v1.0.rpp
 </ul>
 
 <h2>Quellen</h2>
@@ -271,3 +282,4 @@ Bosch-Sensors nutzt. Eine ausführliche Beschreibung des Sensors findet sich in 
 <br>[39] Dirk Fox: I²C mit dem TX(T) - Teil 18: Keypads und I/O-Erweiterungen. ft:pedia 2/2019, S. 46-51.
 <br>[40] Dirk Fox: Experimente mit dem Kombisensor. ft:pedia 3/2021, S. 78-91.
 <br>[41] Dirk Fox: Experimente mit dem Kombisensor - Teil 2. ft:pedia 4/2021, S. 75-83.
+<br>[42] Dirk Wölffel, Dirk Fox: ²C mit dem TX – Teil 11: Pixy-Kamera (1). ft:pedia 4/2014, S. 43-51. 
