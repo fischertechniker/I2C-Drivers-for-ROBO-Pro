@@ -1,6 +1,6 @@
 <h1>I2C-Treiber für ROBO Pro</h1>
 
-(Hinweis zum Download: Damit die Dateien ohne Formatänderungen übertragen werden, bitte über "Code" und "Download zip" die gesamte Treibersammlung herunterladen.)
+(<b>Hinweis zum Download</b>: Damit die Dateien ohne Formatänderungen übertragen werden, bitte über "Code" und "Download zip" die gesamte Treibersammlung herunterladen.)
 
 Das I²C-Protokoll [1] wird auch von den fischertechnik-Controllern TX und TXT unterstützt. In der fischertechnik-Programmierumgebung ROBO Pro gibt es seit 2012 einen 
 Lese- und einen Schreibbefehl, über den I²C-Sensoren angesprochen werden können [2]. Der TX kann über die 5V-Stromversorgung des Busses problemlos Aktoren mit mehreren 
