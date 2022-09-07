@@ -64,7 +64,7 @@ Eine ausführliche Beschreibung beider Sensoren und Beispielanwendungen findet s
 
 <ul>
   <li>ROBO Pro-Treiber DS1307 (TX): RealTimeClock-DS1307 v1.3.rpp
-  <li>ROBO Pro-Treiber DS3231 (TX/TXT): RealTimeClock-DS3231 v1.3.rpp
+  <li>ROBO Pro-Treiber DS3231 (TX/TXT): RealTimeClock-DS3231 v1.4.rpp
 </ul>
 
 <h2>Temperatur- und Drucksensor</h2>
@@ -97,7 +97,7 @@ Auch dieser Sensor benötigt eine 5V-Betriebsspannung; er kann direkt an den TX 
 Datenblatt [19].
 
 <ul>
-  <li>ROBO Pro-Treiber SRF08 (TX): Ultraschall-SRF08 v1.1.rpp
+  <li>ROBO Pro-Treiber SRF08 (TX): Ultraschall-SRF08 v1.2.rpp
   <li>ROBO Pro-Treiber SRF02 (TX): Ultraschall-SRF02 v2.0.rpp
     
 </ul>
